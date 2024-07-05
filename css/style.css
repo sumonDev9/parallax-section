@@ -48,3 +48,30 @@ a{
     min-height: 60vh;
     background-color: #333;
  }
+ @media screen and (max-width:575px) {
+.content{
+    width: 80%;
+}
+    h1{
+        margin: 20px;
+        font-weight: 600px;
+        font-size: 36px;
+    }
+    p{
+        line-height: 1;
+        padding: 10px;
+        font-size: 17px;
+        color: #fff;
+    }
+    a{
+        display: inline-block;
+        padding: .5rem 1em;
+        background-color: #057e9c;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+ }
