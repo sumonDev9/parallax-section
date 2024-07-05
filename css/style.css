@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* content */
+.container{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(#0000004d,#0000004d),url("../images/Mount_Everest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /*this the main part */
+}
+.content{
+    width: 50%;
+}
+h1{
+    font-weight: 600;
+    color: aqua;
+    font-size: 68px;
+}
+p{
+    line-height: 1.3;
+    padding: 15px;
+    font-size: 20px;
+    color: #fff;
+}
+a{
+    display: inline-block;
+    padding: .8rem 2em;
+    background-color: #057e9c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+ .blank{
+    width: 100%;
+    min-height: 60vh;
+    background-color: #333;
+ }
